@@ -1,0 +1,11 @@
+#!name=VIF Only
+#!desc=兼容模式
+#!system=ios
+
+[General]
+compatibility-mode = 3
+force-http-engine-hosts = %APPEND% boxjs.net, boxjs.com
+
+[MITM]
+skip-server-cert-verify = true
+tcp-connection = true
