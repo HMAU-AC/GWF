@@ -2,7 +2,7 @@
 
 set -e
 
-
+# gg
 git init
 git add -A
 git commit -m "surge规则"
